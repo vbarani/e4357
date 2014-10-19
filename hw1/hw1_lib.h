@@ -9,10 +9,9 @@
 #define __HW1_LIB_H__
 
 #include<stdio.h>
-#include<stdint.h>
+#include<stdlib.h>
 
-uint16_t gray_to_binary(uint16_t gray);
-
-uint16_t binary_to_gray(uint16_t binary);
-
+int test_diagonal ( int **  , int );
+int test_row ( int **, int );
+int test_column ( int ** , int );
 #endif

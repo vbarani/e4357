@@ -1,0 +1,16 @@
+DEVICE OPENED: optical wireless mouse.
+
+IC's found :  Avago ADNS- 5090 - Low power optical mouse sensor.
+
+Description: ADNS -5090 is a low power small form factor optical mouse sensor.It is capable of high speed motion detection - upto 30ips and 8 G.  It has onchip oscillator and LED driver to minimise external components.Sensor is programmed via registers through a 4 wire serial port,It is housed in a 8 pin DIP.
+
+Theory of operation:
+The ADNS-5090 contains image acquisition system and digital signal processor and 4 wire serial port.Image acquisition system acquires microscopic surface images via lens and illumination system . These images are processed by DSP to determine direction and distance of motion .The DSP calculates the Dx and Dy relative displacement values.
+An external microcontroller translates these DX and Dy information from sensor serial port to PS2, USB or RF signals before sending them to host PC.
+
+
+Source of this text  and Link for Datasheet :
+www.eciaauthorized.com/search/ADNS-5090
+ 
+
+
