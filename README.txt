@@ -90,5 +90,20 @@ Entry point address in GCC ARM using readelf command
 2. binwalk, objdump, nm to Analysis binaries files
    http://binwalk.org/
 
+command : binwalk HelloWorld.elf
+
+DECIMAL   	HEX       	DESCRIPTION
+-------------------------------------------------------------------------------------------------------
+0         	0x0       	ELF 32-bit LSB executable, ARM, version 1 (SYSV)
+33055     	0x811F    	LZMA compressed data, properties: 0xBF, dictionary size: 524288 bytes, uncompressed size: 268468224 bytes
+81124     	0x13CE4   	LZMA compressed data, properties: 0x1B, dictionary size: 16777216 bytes, uncompressed size: 100663296 bytes
+81404     	0x13DFC   	LZMA compressed data, properties: 0x5A, dictionary size: 16777216 bytes, uncompressed size: 805306368 bytes
+88583     	0x15A07   	mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: SHA-1 hash
+
+binwalk HelloWorld.bin
+DECIMAL   	HEX       	DESCRIPTION
+-------------------------------------------------------------------------------------------------------
+287       	0x11F     	LZMA compressed data, properties: 0xBF, dictionary size: 524288 bytes, uncompressed size: 268468224 bytes
+
 3. Optional: git clone https://github.com/mbedmicro/mbed
    
